@@ -14,16 +14,16 @@ Command-esc (command escape)
 A few quick things:
 
 + ```$ mkdir <dirname>``` makes a directory called <dirname>
-+ ```$ mv <filename> <path/to/new/filename>``` moves filename to the
-directory or name specified by <path/to/new/filename>
-+ ```$ command_1 && command_2``` executes command_1 then command_2
++ ```$ mv \<filename\> \<path/to/new/filename\>``` moves filename to the
+directory or name specified by \<path/to/new/filename\>
++ ````$ command_1 && command_2``` executes command_1 then command_2
 
 # Emacs tutorial!
 
 ## How to read commands
 
-C-<key> means control + <key>
-M-<key> means alt + <key>
+C-\<key\> means control + \<key\>
+M-\<key\> means alt + \<key\>
 
 ## General comands
 
