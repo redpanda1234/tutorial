@@ -16,18 +16,23 @@ A few quick things:
 + ```$ mkdir <dirname>``` makes a directory called <dirname>
 + ```$ mv <filename> <path/to/new/filename>``` moves filename to the
 directory or name specified by <path/to/new/filename>
-+ ````$ command_1 && command_2``` executes command_1 then command_2
++ ````$ command_1 && command_2``` executes command\_1 then command\_2
 
 # Emacs tutorial!
 
 ## How to read commands
 
-```C-<key>``` means ```control + <key>``
-```M-<key>``` means ```alt + <key>```
++ ```C-<key>``` means ```control + <key>```
++ ```M-<key>``` means ```alt + <key>```
 
 ## General comands
 
-C-x is for emacs global commands (like
+### Prefix keys
+
+Prefix keys are key sequences that tell emacs how to treat the keys
+that follow it.
+
++ C-x is a prefix key
 
 # tmux
 [tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
