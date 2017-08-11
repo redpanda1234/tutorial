@@ -27,8 +27,10 @@ try [this](https://www.emacswiki.org/emacs/EmacsNewbieKeyReference)
 
 + ```C-<key>``` means ```control + <key>```
 + ```M-<key>``` means ```alt + <key>```
++
 
-## General comands
+## General commands
+
 
 ### Prefix keys
 
