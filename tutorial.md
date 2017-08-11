@@ -16,7 +16,7 @@ A few quick things:
 + ```$ mkdir <dirname>``` makes a directory called <dirname>
 + ```$ mv <filename> <path/to/new/filename>``` moves filename to the
 directory or name specified by <path/to/new/filename>
-+ ````$ command_1 && command_2``` executes command\_1 then command\_2
++ ```$ command_1 && command_2``` executes command\_1 then command\_2
 
 # Emacs tutorial!
 
