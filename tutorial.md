@@ -12,11 +12,14 @@ Command-esc (command escape)
 [this](https://explainshell.com/) website is a godsend.
 
 A few quick things:
-
++ ```$ ls ``` will list stuff in the current directory. If you want to
+  see hidden files too, try ```$ ls -a```. If you want to have it show
+  in a list form vertically instead of horizontally, try ```$ ls -al```
 + ```$ mkdir <dirname>``` makes a directory called <dirname>
 + ```$ mv <filename> <path/to/new/filename>``` moves filename to the
 directory or name specified by <path/to/new/filename>
 + ```$ command_1 && command_2``` executes command\_1 then command\_2
++ ```$ command_1 | command_2``` will feed the output of command\_1 to command\_2
 
 # Emacs tutorial!
 
@@ -26,8 +29,8 @@ try [this](https://www.emacswiki.org/emacs/EmacsNewbieKeyReference)
 ## How to read commands
 
 + ```C-<key>``` means ```control + <key>```
-+ ```M-<key>``` means ```alt + <key>```
-+
++ ```M-<key>``` means ```meta + <key>``` (typically, meta is bound to
+  alt or escape).
 
 ## General commands
 
