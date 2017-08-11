@@ -20,6 +20,9 @@ directory or name specified by <path/to/new/filename>
 
 # Emacs tutorial!
 
+For a more complete and better-written document,
+try [this](https://www.emacswiki.org/emacs/EmacsNewbieKeyReference)
+
 ## How to read commands
 
 + ```C-<key>``` means ```control + <key>```
@@ -29,13 +32,18 @@ directory or name specified by <path/to/new/filename>
 
 ### Prefix keys
 
-Prefix keys are key sequences that tell emacs how to treat the keys
-that follow it.
+Prefix keys are key sequences that tell emacs how to interpret the
+keys (or sequences of keys) that follow it.
 
-+ C-x is a prefix key
++ C-x is a prefix key for feeding "global" commands to emacs. Things
+  like saving files, quitting emacs, or other things that aren't
+  dependent on the current mode will likely be some form of C-x command.
++ C-c is for commands that are specific to the current mode. E.g., in
+  latex-mode, C-c C-c opens the command menu for compiling/viewing a
+  latex document.
 
 # tmux
-[tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
+See [tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
 
 tmux is basically a way of getting tabs in your terminal.  But, it
 also keeps a record of the state of your terminal.  If you have an
